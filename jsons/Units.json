@@ -42,7 +42,7 @@
 		"cost": 500,
 		"movement": 2,
         "uniques":[
-            "When defeating a [Military] unit, earn [125] Gold and recruit it",
+            "May capture killed [Military] units",
             "Only available <in cities with a [Culinary Classroom]>"
         ]
     }

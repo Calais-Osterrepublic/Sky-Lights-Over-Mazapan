@@ -141,6 +141,7 @@
         "science": 1,
 		"requiredResource": "Honey",
 		"requiredBuilding": "Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
@@ -156,6 +157,7 @@
         "science": 1,
 		"requiredResource": "Medicine",
 		"requiredBuilding": "Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
@@ -171,6 +173,7 @@
         "science": 1,
 		"requiredResource": "Narcotics",
 		"requiredBuilding": "Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
@@ -186,6 +189,7 @@
         "science": 1,
 		"requiredResource": "Soft Drinks",
 		"requiredBuilding": "Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
@@ -201,6 +205,7 @@
         "science": 1,
 		"requiredResource": "Stimulants",
 		"requiredBuilding": "Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
@@ -217,6 +222,7 @@
 		"requiredTech": "Civil Service",
         "requiredResource": "Weapons",
 		"requiredBuilding":"Culinary Classroom",
+		"cost": 200,
         "uniques": [
             "Reculineering Facility",
             "Limited to [1] per Civilization",
