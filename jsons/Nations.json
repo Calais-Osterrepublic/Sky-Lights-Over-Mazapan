@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Mazapan",
+		"leaderName": "Candice Caden",
+		"adjective": ["Pata"],
+		
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We didn't have much, even before the end. Our small franchise in our small town didn't get us much. Nowadays, even our clients have dried up. Yet our bakery has survived.",
+		"startIntroPart2": "So long as treats and confections can still be made, we will uphold the creed of our company: To bake ourselves into the spotlight. So fire up the ovens, y'all. Our mighty Mazapan must flow.",
+		
+		"declaringWar": "Hey, you stole our goods!",
+		"attacked": "Are you sure? You aren't going to get any for free!",
+		"defeated": "Alright, how about a discount?",
+		"introduction": "Welcome, welcome! Come to see our stock?",
+		
+		"neutralHello": "Hi!",
+		"hateHello": "Well, business is business...",
+		"tradeRequest": "Would you like a special shipment?",
+		
+		"outerColor": [200,45,160],
+		"innerColor": [80,30,20],
+		
+		"uniqueName": "Confection Perfection",
+		"uniques": [],
+		"cities": [
+		      "Mazapan Plaza",
+		      "Fruitlan",
+		      "Strawberry",
+		      "Neola",
+		      "Tabiona",
+		      "Soldier Summit",
+		      "Palo",
+		      "Vernal",
+		      "Flaming Gorge",
+		      "Duchesne"
+		]
+	}
+]

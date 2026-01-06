@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Mighty Mazapan Bakery",
+        "isWonder": true,
+        "uniqueTo": "Mazapan",
+        "cost": 0,
+        "culture": 1,
+        "happiness": 1,
+        "gold": 1,
+        "production": 2,
+        "uniques": [
+			"Automatically built in all cities where it is buildable",
+			"Gain a free [Ingredient Cellar] [in this city]",
+			"Can only be built <in [Capital] cities>",
+            "Gain a free [Pantheon] belief <upon founding a Pantheon> <hidden from users>",
+            "Comment [Gain an additional Pantheon belief upon founding a Pantheon]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Mazapan, or marzipan, is a confection consisting primarily of sugar and almond meal, sometimes augmented with almond oil or extract. - Wikipedia"
+            }
+        ],
+        "quote": "Mazapan isn't merely a confection, but a tool. Mighty multitool, marvelous moxie, malicious malady, you name it! Nothing is outside the reach of our mighty almond treat, and the world will know soon enough."
+    },
+    {
+		"name": "Ingredient Cellar",
+		"replaces": "Food Store",
+		"uniqueTo": "Mazapan",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"[+1 Science, +1 Gold, -1 Food] from [Camp] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food, +1 Production] [in this city] <with [Salt]>",
+			"[+1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
+    {
+        "name": "Cater to Survivors",
+        "replaces": "Search for Survivors",
+        "uniqueTo": "Mazapan",
+        "cost": 100,
+        "isNationalWonder": true,
+        "uniques": [
+            "Free [Mighty Marketeer] appears",
+            "Free [Civil Culineer] appears"
+        ]
+    },
+    {
+        "name": "Mighty Mazapan Market",
+        "replaces": "Congress",
+        "uniqueTo": "Mazapan",
+        "cost": 100,
+        "requiredTech": "Civil Service",
+        "uniques": [
+			"[+2 Gold, +1 Culture, +1 Science] from [Luxury resource] tiles [in all cities]",
+			"[+1 Food, +1 Production] from [Bonus resource] tiles [in all cities]",
+            "Only available <if [Cater to Survivors] is constructed>",
+			"Only available <if [Culinary Community Center] is constructed in all [non-[Puppeted]] cities>",
+            "Can only be built <in [Capital] cities>",
+            "Only available <in cities without a [Mighty Mazapan Manufactory]>",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Mighty Mazapan Manufactory",
+        "replaces": "Council",
+        "uniqueTo": "Mazapan",
+        "percentStatBonus": {
+            "production": 10,
+            "food": 10,
+            "gold": 10
+        },
+        "cost": 50,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "Only available <if [Cater to Survivors] is constructed>",
+			"Only available <if [Culinary Classroom] is constructed in all [non-[Puppeted]] cities>",
+            "Can only be built <in [Capital] cities>",
+            "Only available <in cities without a [Mighty Mazapan Market]>",
+            "Destroyed when the city is captured"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Enables Reculineering Buildings"
+            }
+        ]
+    },
+	{
+		"name": "Mazapan Franchise",
+		"replaces": "Market",
+		"uniqueTo": "Mazapan",
+		"production": 1,
+        "gold":1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"[+1 Gold, -1 Food] from [Farm] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Culinary Classroom",
+		"replaces": "Public School",
+		"uniqueTo": "Mazapan",
+		"food": -1,
+		"science": 1,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"Only available <in cities with a [Mazapan Franchise]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+    {
+		"name": "Culinary Community Center",
+		"replaces": "Town Hall",
+		"uniqueTo": "Mazapan",
+		"happiness": 1,
+		"culture": 1,
+		"production": 1,
+		"maintenance": 1,
+		"uniques": [
+			"[-50]% Culture cost of natural border growth [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>",
+			"[+1] population [in this city]",
+			"Only available <in cities with a [Mazapan Franchise]>"
+		],
+		"hurryCostModifier": 40,
+		"requiredTech": "Civil Service"
+	},
+    {
+        "name":"Reculineer Honey",
+        "uniqueTo":"Mazapan",
+		"maintenance": 2,
+        "science": 1,
+		"requiredResource": "Honey",
+		"requiredBuilding": "Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Provides [1] [Honey]",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ]
+    },
+    {
+        "name":"Reculineer Medicine",
+        "uniqueTo":"Mazapan",
+		"maintenance": 2,
+        "science": 1,
+		"requiredResource": "Medicine",
+		"requiredBuilding": "Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Provides [1] [Medicine]",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ]
+    },
+    {
+        "name":"Reculineer Narcotics",
+        "uniqueTo":"Mazapan",
+		"maintenance": 2,
+        "science": 1,
+		"requiredResource": "Narcotics",
+		"requiredBuilding": "Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Provides [1] [Narcotics]",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ]
+    },
+    {
+        "name":"Reculineer Soft Drinks",
+        "uniqueTo":"Mazapan",
+		"maintenance": 2,
+        "science": 1,
+		"requiredResource": "Soft Drinks",
+		"requiredBuilding": "Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Provides [1] [Soft Drinks]",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ]
+    },
+    {
+        "name":"Reculineer Stimulants",
+        "uniqueTo":"Mazapan",
+		"maintenance": 2,
+        "science": 1,
+		"requiredResource": "Stimulants",
+		"requiredBuilding": "Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Provides [1] [Stimulants]",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ]
+    },
+    {
+        "name": "Recruit Field Culineer",
+        "uniqueTo":"Mazapan",
+        "maintenance":2,
+        "replaces": "Armory",
+		"requiredTech": "Civil Service",
+        "requiredResource": "Weapons",
+		"requiredBuilding":"Culinary Classroom",
+        "uniques": [
+            "Reculineering Facility",
+            "Limited to [1] per Civilization",
+            "Only available <in cities without a [Reculineering Facility]>",
+            "Free [Field Culineer] appears",
+            "Only available <if [Mighty Mazapan Manufactory] is constructed>"
+        ],
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of the Field Culineer in any city with a Culinary Classroom."
+			}
+		]
+    }
+]
