@@ -4,16 +4,14 @@
         "isWonder": true,
         "uniqueTo": "Mazapan",
         "cost": 0,
-        "culture": 1,
-        "happiness": 1,
+        "culture": 2,
+        "happiness": 2,
         "gold": 1,
         "production": 2,
         "uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Gain a free [Ingredient Cellar] [in this city]",
-			"Can only be built <in [Capital] cities>",
-            "Gain a free [Pantheon] belief <upon founding a Pantheon> <hidden from users>",
-            "Comment [Gain an additional Pantheon belief upon founding a Pantheon]"
+			"Can only be built <in [Capital] cities>"
         ],
         "civilopediaText": [
             {
@@ -21,6 +19,19 @@
             }
         ],
         "quote": "Mazapan isn't merely a confection, but a tool. Mighty multitool, marvelous moxie, malicious malady, you name it! Nothing is outside the reach of our mighty almond treat, and the world will know soon enough."
+    },
+    {
+        "name":"CannotBuildPrisonCamps",
+        "replaces": "Prison Camp",
+		"uniqueTo": "Mazapan",
+		"cost": 1,
+        "uniques": [
+            "Unbuildable",
+            "Will not be displayed in Civilopedia",
+            "Cannot be purchased",
+            "Remove [CannotBuildPrisonCamps] [in all cities] <if [CannotBuildPrisonCamps] is constructed>"
+        ]
+
     },
     {
 		"name": "Ingredient Cellar",
@@ -42,7 +53,7 @@
         "name": "Cater to Survivors",
         "replaces": "Search for Survivors",
         "uniqueTo": "Mazapan",
-        "cost": 100,
+        "cost": 20,
         "isNationalWonder": true,
         "uniques": [
             "Free [Mighty Marketeer] appears",

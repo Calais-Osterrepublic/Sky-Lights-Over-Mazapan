@@ -10,19 +10,27 @@
 		"startIntroPart2": "So long as treats and confections can still be made, we will uphold the creed of our company: To bake ourselves into the spotlight. So fire up the ovens, y'all. Our mighty Mazapan must flow.",
 		
 		"declaringWar": "Hey, you stole our goods!",
-		"attacked": "Are you sure? You aren't going to get any for free!",
-		"defeated": "Alright, how about a discount?",
+		"attacked": "You aren't getting any for free!",
+		"defeated": "Alright, alright! How about a discount?",
 		"introduction": "Welcome, welcome! Come to see our stock?",
 		
 		"neutralHello": "Hi!",
 		"hateHello": "Well, business is business...",
-		"tradeRequest": "Would you like a special shipment?",
+		"tradeRequest": "Special delivery of a special order for a special someone... You in?",
 		
 		"outerColor": [200,45,160],
 		"innerColor": [80,30,20],
 		
 		"uniqueName": "Confection Perfection",
-		"uniques": [],
+		"uniques": [
+			"[+100]% Unhappiness from [Population] [in annexed cities]",
+			"Comment [Cannot build Prison Camps]",
+            "Gain a free [Pantheon] belief <upon founding a Pantheon> <hidden from users>",
+            "Comment [Gain an additional Pantheon belief upon founding a Pantheon]",
+			"Starts with [Monopoly] adopted",
+			"Starts with [Construction]",
+			"Starts with [Trade]"
+		],
 		"cities": [
 		      "Mazapan Plaza",
 		      "Fruitlan",
